@@ -1,2 +1,4 @@
 var ghpages = require("gh-pages");
-ghpages.publish("out", function (err) {});
+ghpages.publish("out", {
+    remove: ""
+},function (err) {});
