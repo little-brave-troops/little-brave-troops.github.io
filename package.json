@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "predepoly": "pnpm run build",
-    "deploy":"next build && next export && node scripts/deploy.js",
+    "deploy":"next build  && node scripts/deploy.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
